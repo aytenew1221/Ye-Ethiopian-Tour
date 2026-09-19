@@ -1,0 +1,9 @@
+{
+  "id": 1,
+  "from": "Addis Ababa",
+  "destinationId": 1,
+  "method": "Bus",
+  "price": 1500,
+  "currency": "ETB",
+  "duration": "10-12 hours"
+}

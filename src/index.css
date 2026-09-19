@@ -1,0 +1,116 @@
+/* =========================
+   Global Reset
+ */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f7fa;
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+/* =========================
+   Links
+========================= */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* =========================
+   Header
+========================= */
+
+header {
+  background-color: #ffffff;
+  padding: 16px 30px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* =========================
+   Navigation
+========================= */
+
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+nav div:last-child {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav a {
+  font-weight: 500;
+  color: #374151;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #2563eb;
+}
+
+/* =========================
+   Main Content
+========================= */
+
+main {
+  min-height: 70vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+/* =========================
+   Footer
+========================= */
+
+footer {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #e5e7eb;
+  color: #6b7280;
+}
+
+/* =========================
+   Responsive Design
+========================= */
+
+@media (max-width: 768px) {
+  header {
+    padding: 15px 20px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav div:last-child {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  main {
+    padding: 20px 15px;
+  }
+}

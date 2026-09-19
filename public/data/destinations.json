@@ -1,0 +1,11 @@
+{
+  "id": 1,
+  "name": "Lalibela",
+  "nameAm": "ላሊበላ",
+  "region": "Amhara",
+  "category": "Historical",
+  "description": "...",
+  "descriptionAm": "...",
+  "image": "/images/lalibela.jpg",
+  "attractions": ["Rock-Hewn Churches", "Bet Giyorgis"]
+}
