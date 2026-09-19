@@ -271,36 +271,6 @@ Travel data may include:
 
 ---
 
-## 💻 Installation
-
-Clone the repository:
-
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-```
-
-Go into the project folder:
-
-```bash
-cd ye-ethiopia-tour
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Start the development server:
-
-```bash
-npm run dev
-```
-
-Open the local development URL shown in the terminal.
-
----
-
 ## 📁 Project Structure
 
 ```text
