@@ -1,7 +1,3 @@
-/* =========================
-   Global Reset
- */
-
 * {
   box-sizing: border-box;
 }
@@ -18,18 +14,18 @@ body {
   line-height: 1.6;
 }
 
-/* =========================
+/* 
    Links
-========================= */
+ */
 
 a {
   text-decoration: none;
   color: inherit;
 }
 
-/* =========================
+/* 
    Header
-========================= */
+ */
 
 header {
   background-color: #ffffff;
@@ -37,9 +33,9 @@ header {
   border-bottom: 1px solid #e5e7eb;
 }
 
-/* =========================
+/* 
    Navigation
-========================= */
+*/
 
 nav {
   max-width: 1200px;
@@ -67,9 +63,9 @@ nav a:hover {
   color: #2563eb;
 }
 
-/* =========================
+/* 
    Main Content
-========================= */
+ */
 
 main {
   min-height: 70vh;
@@ -78,9 +74,9 @@ main {
   padding: 30px 20px;
 }
 
-/* =========================
+/* 
    Footer
-========================= */
+ */
 
 footer {
   background-color: #ffffff;
@@ -90,9 +86,9 @@ footer {
   color: #6b7280;
 }
 
-/* =========================
+/* 
    Responsive Design
-========================= */
+ */
 
 @media (max-width: 768px) {
   header {
