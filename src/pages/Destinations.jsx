@@ -1,3 +1,4 @@
+//destinations.jsx
 export default function Destinations() {
   return (
     <div>
