@@ -70,6 +70,8 @@ The `Layout` component uses React Router's `Outlet` to display the current page.
 
 ```text
 src/
+├── context/
+│   ├── ThemeContext.jsx
 ├── components/
 │   ├── Navbar.jsx
 │   └── Footer.jsx
